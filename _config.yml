@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            JpBriend
+tagline:          ''
+description:      'Jean-Philippe Briend,<br/>Software Engineer<br/><a href="https://twitter.com/jpbriend" target="_blank">Twitter</a>'
+url:              http://www.jpbriend.fr
+baseurl:          /
+
+author:
+  name:           'Jean-Philippe Briend'
+  url:            https://twitter.com/jpbriend
+
+paginate:         1
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/jpbriend
