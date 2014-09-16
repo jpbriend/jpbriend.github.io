@@ -91,6 +91,12 @@ cd ~/software/elasticsearch/config
 vim elasticsearch.yml
 {% endhighlight %}
 
+Elasticsearch is configured by default for a Search usage : few indexing requests and lot of search requests.
+In the case of Log monitoring using Logstash / Kibana, it's the opposite : lot of indexing requests and few search requests.
+
+My recommandation is to change the dedicated thread pools in Elasticsearch.
+We will setup the *search* thread pool size to a fixed value of 20, the *bulk* thread pool (used to laod data into ES) size to 60 and the *index* thread pool size to 20
+
 Edit or add the following properties :
 {% highlight yaml %}
 # Disable dynamic scripting for security reasons (see http://www.elasticsearch.org/blog/scripting-security/)
