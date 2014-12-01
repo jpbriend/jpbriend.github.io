@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            JpBriend
 tagline:          ''
-description:      'Jean-Philippe Briend,<br/>Software Engineer<br/><a href="https://twitter.com/jpbriend" target="_blank">Twitter</a>'
+description:      'Jean-Philippe Briend,<br/>Software Engineering<br/><a href="https://twitter.com/jpbriend" target="_blank">Twitter</a>'
 url:              http://www.jpbriend.fr
 baseurl:          /
 
@@ -19,7 +19,7 @@ author:
 paginate:         1
 
 # Custom vars
-version:          2.1.0
+version:          2.2.0
 
 github:
   repo:           https://github.com/jpbriend
